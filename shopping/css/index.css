@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 720px;
+    height: 455px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #fff;
+}
+
+.news-hd {
+    height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 33px;
+    color: #333333;
+}
+
+.news-hd a {
+    float: right;
+    line-height: 33px;
+    font-size: 12px;
+}
+
+.news-hd a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 62px;
+    height: 72px;
+    border-right: 2px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-image: url(../images/icons.png);
+    background-position: -18px -16px;
+    /* background-color: black; */
+    margin-top: 12px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background-position: -80px -16px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background-position: -140px -16px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background-position: -205px -16px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background-position: -18px -86px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background-position: -80px -86px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background-position: -140px -86px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background-position: -205px -86px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background-position: -18px -156px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background-position: -80px -156px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background-position: -140px -156px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background-position: -205px -156px;
+}
+
+.lifeservice ul li p {
+    font-size: 14px;
+}
+
+.jianfa {
+    position: relative;
+}
+
+.jianfa .jian {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/jian.png) no-repeat;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.recommend {
+    height: 163px;
+    margin-top: 12px;
+}
+
+.recom-hd {
+    float: left;
+    padding: 30px;
+    width: 207px;
+    height: 163px;
+    text-align: center;
+    background-color: #5c5251;
+}
+
+.recom-bd {
+    float: right;
+}
+
+.recom-bd ul li {
+    float: left;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.guess {
+    height: 285px;
+}
+
+.guess-hd {
+    height: 35px;
+    line-height: 35px;
+    background-color: #ffffff;
+}
+
+.guess-hd h3 {
+    float: left;
+    font-size: 16px;
+}
+
+.guess-hd a {
+    float: right;
+    padding-right: 42px;
+    font-size: 14px;
+}
+
+.guess-hd a::after {
+    content: "\ea2e";
+    font-family: 'icomoon';
+    margin-left: 10px;
+    line-height: 35px;
+}
+
+.guess-bd {
+    height: 232px;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.guess-bd ul li {
+    position: relative;
+    float: left;
+    width: 198px;
+    text-align: center;
+}
+
+.guess-bd ul li img {
+    width: 198px;
+    height: 157px;
+}
+
+.guess-bd ul li:nth-child(-n+5)::after {
+    position: absolute;
+    top: 157px;
+    left: 205px;
+    content: "";
+    width: 1px;
+    height: 63px;
+    background-color: #fff;
+}
+
+.guess-bd ul li p {
+    padding-top: 12px;
+}
+
+.guess-bd .money-style {
+    font-size: 16px;
+    margin-right: 65px;
+    font-weight: 700;
+    color: #df3033;
+}
+
+.jiadian-hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.jiadian-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.jiadian-hd .tab_list {
+    float: right;
+}
+
+.shouji-hd {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.shouji-hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.shouji-hd .tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.jiadian-bd {
+    height: 361px;
+}
+
+.shouji-bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li a {
+    font-size: 12px;
+    color: #666666;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_221 a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_219 a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

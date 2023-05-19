@@ -1,0 +1,136 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    padding-left: 15px;
+    border-left: 1px solid #c81623;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0px 28px;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 14px;
+    padding: 2px 20px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-size: 14px;
+    font-family: 'icomoon';
+    content: "";
+    margin-left: 5px;
+}
+
+.main_bd {
+    margin-top: 20px;
+}
+
+.main_bd ul li {
+    position: relative;
+    overflow: hidden;
+    width: 290px;
+    height: 460px;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #fff;
+}
+
+.main_bd ul li:hover {
+    border-color: #c81623;
+}
+
+.main_bd .goods_title {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.main_bd .goods_price em {
+    font-size: 22px;
+    color: #e60012;
+}
+
+
+/* 3号盒子里面 右侧价格样式 */
+
+.main_bd .goods_price del {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+}
+
+.main_bd .goods_price {
+    padding: 0 10px;
+}
+
+.bar {
+    display: inline-block;
+    width: 130px;
+    height: 10px;
+    border: 1px solid #b1191a;
+    vertical-align: middle;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+
+/* 4号盒子中间进度条内层盒子样式 */
+
+.bar_in {
+    width: 87%;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #f24349;
+}
+
+
+/* 设置4号盒子里面文字颜色 */
+
+.goods_progress em,
+.goods_progress i {
+    color: #f24349;
+}
+
+
+/* 5号盒子 a 标签的样式 */
+
+.goods_buy {
+    position: absolute;
+    bottom: 0px;
+    width: 290px;
+    height: 50px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
